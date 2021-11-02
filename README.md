@@ -1,11 +1,16 @@
 # HiHello
 
+<center>
+	<img src="./image.png" width="700px">
+</center>
+
 Docker or Kubernetes를 테스트하기 좋은 심플한 웹 서버
+
+> 웹페이지의 디자인은 [여기](https://github.com/premist/inspekt) 소스코드를 사용했습니다.
 
 ## Badges
 
 <!-- Badges -->
-[![CircleCI](https://circleci.com/gh/rhea-so/HiHello/tree/main.svg?style=svg)](https://circleci.com/gh/rhea-so/HiHello/tree/main)
 [![License](https://img.shields.io/github/license/rhea-so/HiHello)](https://raw.githubusercontent.com/rhea-so/HiHello/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/rhea-so/HiHello)](https://github.com/rhea-so/HiHello/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/rhea-so/HiHello)](https://github.com/rhea-so/HiHello/pulls)
@@ -13,7 +18,19 @@ Docker or Kubernetes를 테스트하기 좋은 심플한 웹 서버
 
 ## Usage
 
-[GitHub Template](https://velog.io/@bgm537/Github%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5-Template-repository-%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-fsjwpt0x00)
+## Prepare
+
+Kubernetes, Docker가 설치된 PC에서 실행해야 함
+
+## Script
+
+```sh
+git clone https://github.com/rhea-so/HiHello
+cd HiHello
+./run.sh
+```
+
+위 명령어 실행시, HPA & Deployments & Service가 Kubernetes에 등록됨
 
 ## Configuration & Setup
 
