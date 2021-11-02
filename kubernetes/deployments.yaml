@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hihello
-        image: hihello:latest
+        image: rheaso/hihello:1.0.0
         imagePullPolicy: Never
         env:
             - name: NODE_NAME

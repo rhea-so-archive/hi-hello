@@ -1,7 +1,7 @@
 # HiHello
 
 <center>
-	<img src="./image.png" width="700px">
+	<img src="https://github.com/rhea-so/HiHello/blob/main/image.png?raw=true" width="700px">
 </center>
 
 Docker or Kubernetes를 테스트하기 좋은 심플한 웹 서버
@@ -20,7 +20,7 @@ Docker or Kubernetes를 테스트하기 좋은 심플한 웹 서버
 
 ## Prepare
 
-Kubernetes, Docker가 설치된 PC에서 실행해야 함
+Kubernetes, Docker가 설치된 PC에서 실행해야 합니다.
 
 ## Script
 
@@ -30,7 +30,13 @@ cd HiHello
 ./run.sh
 ```
 
-위 명령어 실행시, HPA & Deployments & Service가 Kubernetes에 등록됨
+위 명령어 실행시, HPA & Deployments & Service가 Kubernetes에 등록됩니다.
+
+```sh
+docker run -d -p 60000:60000 rheaso/hihello:1.0.0
+```
+
+[Docker Hub](https://hub.docker.com/r/rheaso/hihello)에 배포했기 때문에, Docker 명령어로 바로 실행하는 것 또한 가능합니다.
 
 ## Configuration & Setup
 
