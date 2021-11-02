@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi, Hello!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>👋<br>Hi, Hello!</h1>
+            <table>
+                <tr>
+                    <th>Node Name</th>
+                    <th>{{ NODE_NAME }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Host IP</th>
+                    <th>{{ POD_HOST_IP }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Name</th>
+                    <th>{{ POD_NAME }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Namespace</th>
+                    <th>{{ POD_NAMESPACE }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Host</th>
+                    <th>{{ POD_HOST }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Uptime</th>
+                    <th>{{ POD_UPTIME }}</th>
+                </tr>
+                <tr>
+                    <th>Pod CPU Load</th>
+                    <th>{{ POD_CPU_LOAD }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Total Memory</th>
+                    <th>{{ POD_TOTAL_MEMORY }}</th>
+                </tr>
+                <tr>
+                    <th>Pod Free Memory</th>
+                    <th>{{ POD_FREE_MEMORY }}</th>
+                </tr>
+                <tr>
+                    <th>Pod CPU Count</th>
+                    <th>{{ POD_CPU_COUNT }}</th>
+                </tr>
+            </table>
+            <p>Info by <a href="https://github.com/rhea-so/HiHello" target="_blank">HiHello</a></p>
+        </div>
+    </body>
+</html>
